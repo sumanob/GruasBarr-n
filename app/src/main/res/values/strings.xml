@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Mapa">Mapa</string>
+    <string name="Emergencias">Emergencias</string>
+    <string name="SeguridadVial">SeguridadVial</string>
+    <string name="LlamadaDirecta">LlamadaDirecta</string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_tips">Tips</string>
+    <string name="LblAgregarTitulo">Agregar</string>
+    <string name="PeliculaNombre">Nombre</string>
+    <string name="PeliculaGenero">Genero</string>
+    <string name="PeliculaDuracion">Duracion</string>
+    <string name="PeliculaProtagonista">Protagonista</string>
+    <string name="btnRegistrar">Registar</string>
+    <string name="btnRegresar">Regresar</string>
+    <string name="title_activity_misdatos">Misdatos</string>
+
+</resources>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:background="#f7fd6e0f"
+tools:context="com.example.gruas.gruas.DATOS">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="REGISTRO"
+    android:textSize="30sp"
+    android:textColor="#fff"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/TxtNombre"
+    android:inputType="text"
+    android:hint="Nombre"
+    android:textColorHint="#ffffffff"
+    android:textColor="#fff"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/TxtGenero"
+    android:inputType="text"
+    android:hint="Apellido"
+    android:textColorHint="#ffffffff"
+    android:textColor="#fff"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/TxtDuracion"
+    android:inputType="text"
+    android:hint="Edad"
+    android:textColorHint="#ffffffff"
+    android:textColor="#fff"
+    />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/TxtProtagonista"
+    android:inputType="text"
+    android:hint="E-mail"
+    android:textColorHint="#ffffffff"
+    android:textColor="#fff"
+    />
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/BtnRegistrar"
+        android:text="btnRegistrar"
+        android:textColor="#FFF"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BtnRegresar"
+        android:text="btnRegresar"
+        android:textColor="#FFF"
+
+        />
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/icono_registro"></RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff87923"
+    tools:context="gruas.utsjr.com.gb.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/images"
+            android:id="@+id/BtnMapa"
+
+            />
+
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/em"
+            android:id="@+id/BtnEmergencias"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="Mapa"
+            android:textSize="25dp"
+            android:textAlignment="center"
+             />
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="Emergencias"
+            android:textSize="25dp"
+            android:textAlignment="center"
+
+          />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:src="@drawable/rr"
+            android:id="@+id/BtnSeguridadVial"
+            />
+
+        <ImageButton
+            android:layout_width="33mm"
+            android:layout_height="33mm"
+            android:id="@+id/BtnLlamadaDirecta"
+            android:src="@drawable/fdfdf" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="SeguridadVial"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="33mm"
+            android:layout_height="wrap_content"
+            android:text="LlamadaDirecta"
+            android:textSize="25dp"
+            android:textAlignment="center"
+          />
+
+
+        />
+
+    </LinearLayout>
+
+</LinearLayout>
